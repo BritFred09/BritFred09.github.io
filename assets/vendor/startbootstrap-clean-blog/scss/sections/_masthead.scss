@@ -8,7 +8,7 @@ header.masthead {
     position: relative;
     background-size: cover;
 
-    .overlay {
+    /*.overlay {
         position: absolute;
         top: 0;
         left: 0;
@@ -16,13 +16,13 @@ header.masthead {
         width: 100%;
         background-color: $gray-900;
         opacity: 0.5;
-    }
+    }*/
 
     .page-heading,
     .post-heading,
     .site-heading {
         padding: 200px 0 150px;
-        color: white;
+        color: rgb(0, 0, 0);
 
         @media only screen and (min-width: 768px) {
             padding: 200px 0;
@@ -31,7 +31,7 @@ header.masthead {
 
     .page-heading,
     .site-heading {
-        text-align: center;
+        text-align: left;
 
         h1 {
             font-size: 50px;
