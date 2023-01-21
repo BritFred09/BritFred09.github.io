@@ -7,7 +7,6 @@
 // See also https://github.com/twbs/bootstrap/issues/18178
 .img-fluid {
   @include img-fluid();
-  translate: -1%;
 }
 
 
