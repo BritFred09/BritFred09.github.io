@@ -79,8 +79,31 @@ img::-moz-selection {
     position: relative;
     overflow: hidden;
     padding-top: 75%;
-    height: 175rem;
 }
+
+@media screen and (min-width: 1200px) {
+    .iframe-GDS-container {
+      height: 1900px;
+    }
+  }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .iframe-GDS-container {
+      height: 1200px;
+    }
+  }  
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .iframe-GDS-container {
+      height: 1000px;
+    }
+  }
+  
+@media screen and (max-width: 767px) {
+    .iframe-GDS-container {
+      height: 800px;
+    }
+  }    
 
 .iframe-GDS-container iframe {
     position: absolute;
