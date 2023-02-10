@@ -101,7 +101,7 @@ len(product_links)
 I then initiated a pandas dataframe where the first column held those 329 unique product URLs.
 ```
 data = {
-    'Product_url': [], 
+    'Product_url': []
 
 }
 
